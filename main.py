@@ -23,7 +23,7 @@ def text_message(m):
         bot.reply_to(m.chat.id, f"вот твоя группа {gr}")
 
 
-
+#pft,fkcx
 
 
 
