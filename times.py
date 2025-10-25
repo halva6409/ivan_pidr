@@ -5,9 +5,10 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import time
 import pytz
 import os
+import secret
 
 
-BOT_TOKEN = "7851159770:AAESg7CiW7wdIwZTQQuGETJrG6Qj1HSE4WA"
+BOT_TOKEN = secret.TOKEN
 TIMEZONE = pytz.timezone("Europe/Samara")
 ADMIN_ID= 5139103016
 USER_FILE = "users.json"
