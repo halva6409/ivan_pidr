@@ -1,11 +1,9 @@
-import asyncio
+import pytz, os, secret, asyncio
 from aiogram import Bot, Dispatcher, types 
 from aiogram.filters import Command
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import time
-import pytz
-import os
-import secret
+import pytz, os, secret
 
 
 BOT_TOKEN = secret.TOKEN
