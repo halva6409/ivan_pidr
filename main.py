@@ -1,11 +1,11 @@
 import telebot,requests
 import secret
-from for_sql1 import ddb
+#from for_sql1 import ddb
 bot = telebot.TeleBot(secret.TOKEN)
 
 m = 'message'
 gr = 0
-ddb()
+#ddb()
 @bot.message_handler(commands=['start'])
 def hellow(m):
     bot.send_message(m.chat.id, "Нужно заменить")
